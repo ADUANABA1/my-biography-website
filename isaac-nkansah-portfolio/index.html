@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+    content="Personal portfolio of Isaac Nkansah, an Information Technology student at Methodist University Ghana.">
+
+  <meta name="keywords"
+    content="Isaac Nkansah, Information Technology, Methodist University Ghana, web development, Java, MySQL, cybersecurity">
+
+  <meta name="author" content="Isaac Nkansah">
+
+  <meta property="og:title" content="Isaac Nkansah | Personal Biography">
+
+  <meta property="og:description"
+    content="Explore Isaac Nkansah's skills, education, projects, and contact information.">
+
+  <meta property="og:type" content="website">
+  
+
+  <title>Isaac Nkansah | IT Student & Web Developer</title>
+
+<!-- SEO Metadata -->
+<meta name="description"
+      content="Isaac Nkansah's personal portfolio. Explore my biography, IT skills, web development projects, certificates, and achievements.">
+
+<meta name="keywords"
+      content="Isaac Nkansah, IT student, web developer, programming, Ghana">
+
+<meta name="author" content="Isaac Nkansah">
+
+<meta name="robots" content="index, follow">
+
+<!-- Social Media Preview -->
+<meta property="og:title"
+      content="Isaac Nkansah | Personal Portfolio">
+
+<meta property="og:description"
+      content="Explore my biography, technical skills, projects, and achievements.">
+
+<meta property="og:type" content="website">
+
+<meta property="og:image"
+      content="https://YOUR-WEBSITE-URL/images/isaac.jpg">
+
+<meta name="twitter:card" content="summary_large_image">
+
+
+  <link rel="icon" type="image/jpeg" href="images/isaac.jpg">
+  <link rel="stylesheet" href="sytle.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div id="welcome-message" class="welcome-message">
+  Welcome to my personal biography website!
+</div>
+
+<!-- Website Loader -->
+<div id="page-loader">
+    <div class="loader-content">
+        <div class="loader-logo">IN</div>
+        <h2>Isaac Nkansah</h2>
+        <p>Loading Portfolio...</p>
+        <div class="loader-spinner"></div>
+    </div>
+</div>
+
+
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+
+      <a class="logo" href="#home">My<span>Bio</span></a>
+
+      <button class="menu-toggle"
+              type="button"
+              aria-label="Open navigation menu"
+              aria-expanded="false"
+              aria-controls="primary-navigation">
+        ☰
+      </button>
+
+      <ul id="primary-navigation" class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="navbar-actions">
+        <button id="theme-toggle"
+                class="theme-toggle"
+                type="button"
+                aria-label="Switch to dark mode"
+                aria-pressed="false">
+          🌙 Dark Mode
+        </button>
+
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="home" class="hero">
+
+      <div class="hero-content">
+        <h1>Hello, I'm Isaac Nkansah</h1>
+
+        <h2 class="hero-role">
+    I'm a <span id="typing-text"></span><span class="typing-cursor">|</span>
+</h2>
+
+        <p>
+          Welcome to my personal biography website. I am passionate
+          about technology, programming, and innovation.
+        </p>
+
+        
+<div class="hero-actions">
+
+    <a href="#about" class="btn">
+        Learn More About Me
+    </a>
+
+    
+<a href="files/Isaac-Nkansah-CV.pdf"
+   class="cv-btn"
+   download>
+    📄 Download My CV
+</a>
+
+
+</div>
+
+      </div>
+
+      <div class="hero-image">
+        <img src="images/isaac.jpg"
+             alt="Isaac Nkansah profile picture">
+                <div class="digital-clock">
+  <p>Current Time</p>
+  <h3 id="clock">00:00:00</h3>
+</div>
+      </div>
+
+    </section>
+
+    <section id="about" class="section reveal">
+
+      <h2>About Me</h2>
+
+      <p>
+        My name is Isaac Nkansah. I am an enthusiastic Information
+        Technology student with an interest in software development,
+        web technologies, database management, and cybersecurity.
+      </p>
+
+      <p>
+        I enjoy learning new technologies and using my knowledge
+        to solve real-world problems.
+      </p>
+      <div class="reading-progress">
+  <p>Reading Progress</p>
+  <div class="reading-progress-track">
+    <div id="reading-progress-bar"></div>
+  </div>
+  <span id="reading-progress-text">0%</span>
+</div>
+
+    </section>
+
+    <section id="education" class="section section-tint reveal">
+
+      <h2>My Education</h2>
+
+      <div class="card">
+        <h3>University Education</h3>
+
+        <p>
+          <strong>Institution:</strong> Methodist University Ghana
+        </p>
+
+        <p>
+          <strong>Programme:</strong> Information Technology
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Academic Interests</h3>
+
+        <p>
+          Programming, database systems, web technologies,
+          information technology, and cybersecurity.
+        </p>
+      </div>
+
+    </section>
+
+  
+<!-- Skills Section -->
+<section id="skills" class="section reveal">
+
+    <div class="section-heading">
+        <h2>My Technical Skills</h2>
+        <p>Technologies and tools I am learning and working with.</p>
+    </div>
+
+    <div class="skills-container">
+
+        <div class="skill">
+            <div class="skill-info">
+                <span>HTML</span>
+                <span>85%</span>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-progress" data-progress="85"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-info">
+                <span>CSS</span>
+                <span>75%</span>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-progress" data-progress="75"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-info">
+                <span>JavaScript</span>
+                <span>60%</span>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-progress" data-progress="60"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-info">
+                <span>PHP</span>
+                <span>55%</span>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-progress" data-progress="55"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-info">
+                <span>MySQL</span>
+                <span>65%</span>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-progress" data-progress="65"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-info">
+                <span>Python</span>
+                <span>50%</span>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-progress" data-progress="50"></div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+    <section id="hobbies" class="section reveal">
+
+      <h2>My Hobbies</h2>
+
+      <ul class="hobby-list">
+        <li>Learning new technologies</li>
+        <li>Reading technology articles</li>
+        <li>Programming</li>
+        <li>Researching</li>
+        <li>Solving problems</li>
+      </ul>
+
+    </section>
+
+    <section id="achievements" class="section section-tint reveal">
+
+      <div class="section-heading">
+        <p class="eyebrow">My growth</p>
+        <h2>Achievements &amp; Certifications</h2>
+      </div>
+
+      <div class="achievements-grid">
+
+        <article class="achievement-card">
+          <div class="achievement-icon">🏆</div>
+
+          <h3>Academic Achievement</h3>
+
+          <div class="achievement-pdf-viewer" id="achievement-pdf-viewer">
+            <button class="achievement-pdf-close"
+                    id="achievement-pdf-close"
+                    type="button"
+                    aria-label="Close results PDF viewer">
+              Close viewer
+            </button>
+            <iframe class="achievement-pdf-preview"
+                    src="images/result.pdf"
+                    title="Academic achievement results PDF"
+                    loading="lazy">
+              Your browser does not support embedded PDFs.
+            </iframe>
+          </div>
+          <button class="achievement-pdf-reopen"
+                  id="achievement-pdf-reopen"
+                  type="button"
+                  hidden>
+            Show results PDF
+          </button>
+          <a href="images/result.pdf"
+             class="project-link"
+             target="_blank"
+             rel="noopener noreferrer">
+            View Results PDF ↗
+          </a>
+
+        </article>
+
+        <article class="achievement-card">
+          <div class="achievement-icon">📜</div>
+
+          <h3>Professional Certificate</h3>
+
+          <img class="certificate-image"
+               src="images/cert..jpg"
+               alt="Professional certificate">
+        </article>
+
+        <article class="achievement-card">
+          <div class="achievement-icon">💻</div>
+
+          <h3>Technical Experience</h3>
+
+          <img class="certificate-image"
+               src="images/onemillion.jpg"
+               alt="One Million Coders program logo">
+        </article>
+
+      </div>
+
+    </section>
+
+<!-- Certificates Section -->
+<section id="certificates" class="section reveal">
+
+    <div class="section-heading">
+        <h2>My Certificates</h2>
+        <p>Courses, certifications, and learning achievements.</p>
+    </div>
+
+    <div class="certificates-grid">
+
+        <div class="certificate-card">
+            <img src="images/certificates/leadership.jpg"
+                 alt="Leadership certificate"
+                 loading="lazy">
+
+            <div class="certificate-info">
+                <h3>Leadership Certificate</h3>
+                <p>Customer Service Management</p>
+                <span class="certificate-label">Certificate</span>
+            </div>
+        </div>
+
+        <div class="certificate-card">
+            <img src="images/cert..jpg"
+                 alt="Web development certificate"
+                 loading="lazy">
+
+            <div class="certificate-info">
+                <h3>Web Development</h3>
+                <p>Website Design and Development</p>
+                <span class="certificate-label">Certificate</span>
+            </div>
+        </div>
+
+        <div class="certificate-card">
+            <img src="images/certificates/upper room.jpg"
+                 alt="Leadership and Management certificate"
+                 loading="lazy">
+
+            <div class="certificate-info">
+                <h3>Leadership and Management certificate</h3>
+                <p>Emotional Intelligence,Stress Management,Time Management</p>
+                <span class="certificate-label">Certificate</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Certificate Lightbox -->
+<div id="certificate-lightbox" class="lightbox">
+    <button class="lightbox-close" aria-label="Close viewer">
+        &times;
+    </button>
+
+    <img id="lightbox-image" src="" alt="Certificate enlarged">
+
+    <p id="lightbox-caption"></p>
+</div>
+
+
+
+    
+<section id="projects" class="section reveal">
+
+    <div class="section-heading">
+        <p class="eyebrow">My portfolio</p>
+        <h2>Featured Projects</h2>
+        <p>Explore some of the projects I have worked on.</p>
+    </div>
+
+    <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <article class="project-card">
+
+            <div class="project-preview preview-portfolio">
+                <span class="preview-icon">🌐</span>
+                <span class="preview-label">PERSONAL PORTFOLIO</span>
+            </div>
+
+            <div class="project-content">
+
+                <span class="project-category">Web Development</span>
+
+                <h3>Personal Biography Website</h3>
+
+                <p>
+                    A responsive personal portfolio website showcasing
+                    my background, skills, projects, and achievements.
+                </p>
+
+                <div class="project-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <div class="project-links">
+                    <a href="index.html" class="project-link">
+                        View Project ↗
+                    </a>
+                </div>
+
+            </div>
+        </article>
+
+
+        <!-- Project 2 -->
+        <article class="project-card">
+
+            <div class="project-preview preview-ecommerce">
+                <span class="preview-icon">🛍️</span>
+                <span class="preview-label">E-COMMERCE PLATFORM</span>
+            </div>
+
+            <div class="project-content">
+
+                <span class="project-category">Web Application</span>
+
+                <h3>E-Commerce Platform</h3>
+
+                <p>
+                    A responsive online shopping platform concept
+                    featuring product displays and online payment
+                    functionality.
+                </p>
+
+                <div class="project-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <div class="project-links">
+                    <a href="../STARTOCODE%20PROJECT/STARTOCODE%20PROJECT/index.html" class="project-link">
+                        Project Details ↗
+                    </a>
+                </div>
+
+            </div>
+        </article>
+
+
+        <!-- Project 3 -->
+        <article class="project-card">
+
+            <div class="project-preview preview-database">
+                <span class="preview-icon">🗄️</span>
+                <span class="preview-label">DATABASE SYSTEM</span>
+            </div>
+
+            <div class="project-content">
+
+                <span class="project-category">MySQL Database</span>
+
+                <h3>Aduanaba Inventory Database</h3>
+
+                <p>
+                    A MySQL schema for managing grocery products,
+                    categories, brands, prices, and stock levels.
+                </p>
+
+                <div class="project-tags">
+                    <span>MySQL</span>
+                    <span>SQL</span>
+                    <span>Database Design</span>
+                </div>
+
+                <div class="project-links">
+                    <a href="files/aduanaba-schema.sql"
+                       class="project-link"
+                       download>
+                        Download MySQL Schema ↗
+                    </a>
+                </div>
+
+            </div>
+        </article>
+
+    </div>
+
+</section>
+
+<!-- Testimonials Section -->
+<section id="testimonials" class="section reveal">
+    <div class="section-heading">
+        <h2>What People Say</h2>
+        <p>Feedback from people I have worked and learned with.</p>
+    </div>
+
+    <div class="testimonials-grid">
+
+        <div class="testimonial-card">
+            <div class="quote-icon">“</div>
+            <p>
+                Isaac is a dedicated student with a strong interest
+                in technology and software development.
+            </p>
+            <div class="testimonial-author">
+                <div class="author-avatar">L</div>
+                <div>
+                    <h3>Lecturer</h3>
+                    <span>Academic Feedback</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonial-card">
+            <div class="quote-icon">“</div>
+            <p>
+                Isaac is enthusiastic about learning new technologies
+                and improving his programming skills.
+            </p>
+            <div class="testimonial-author">
+                <div class="author-avatar">C</div>
+                <div>
+                    <h3>Classmate</h3>
+                    <span>Study Collaboration</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonial-card">
+            <div class="quote-icon">“</div>
+            <p>
+                Isaac demonstrates creativity, persistence,
+                and a willingness to learn.
+            </p>
+            <div class="testimonial-author">
+                <div class="author-avatar">T</div>
+                <div>
+                    <h3>Team Member</h3>
+                    <span>Project Collaboration</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+     <button id="share-website" class="share-btn">
+  🔗 Share My Website
+</button>
+
+<p id="share-message" aria-live="polite"></p>
+    <section id="contact" class="section contact-section reveal">
+
+      <div class="section-heading">
+        <p class="eyebrow">Let’s connect</p>
+        <h2>Contact Me</h2>
+      </div>
+
+      <p class="contact-intro">
+        Have a question or would like to work with me?
+        Send me a message.
+      </p>
+
+    
+<form action=https://formspree.io/f/xeaawyzr
+      method="POST"
+      class="contact-form">
+
+    <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text"
+               id="name"
+               name="name"
+               placeholder="Enter your name"
+               required>
+    </div>
+
+    <div class="form-group">
+        <label for="email">Your Email</label>
+        <input type="email"
+               id="email"
+               name="email"
+               placeholder="Enter your email"
+               required>
+    </div>
+
+    <div class="form-group">
+        <label for="subject">Subject</label>
+        <input type="text"
+               id="subject"
+               name="subject"
+               placeholder="Message subject"
+               required>
+    </div>
+
+    <div class="form-group">
+        <label for="message">Your Message</label>
+        <textarea id="message"
+                  name="message"
+                  rows="6"
+                  placeholder="Write your message here..."
+                  required></textarea>
+    </div>
+
+    <button type="submit" class="btn">
+        Send Message
+    </button>
+
+<p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+
+
+</form>
+
+
+      <p class="contact-form-note">
+        Submitting sends your message securely through Formspree.
+      </p>
+
+      <div class="contact-details">
+        <a href="mailto:ikek.nkansah@gmail.com">
+          ✉ ikek.nkansah@gmail.com
+          <button id="copy-email" class="copy-email-btn">
+  📋 Copy Email Address
+</button>
+
+<p id="copy-message" aria-live="polite"></p>
+        </a>
+
+        <span>⌖ Ghana</span>
+
+        <a href="tel:+233542325626">
+          ☎ 054 232 5626
+        </a>
+      </div>
+
+      <div class="social-links">
+        <a href="https://github.com/ADUANABA1"
+           target="_blank"
+           rel="noopener noreferrer">
+          GitHub
+        </a>
+
+        <a href="https://www.linkedin.com/in/isaac-nkansah-b298a4320/"
+           target="_blank"
+           rel="noopener noreferrer">
+          LinkedIn
+        </a>
+
+        <a href="https://twitter.com/IsaacNkans"
+           target="_blank"
+           rel="noopener noreferrer">
+          Twitter
+        </a>
+      </div>
+
+    </section>
+
+  </main>
+
+  
+<!-- Footer Section -->
+<footer class="site-footer">
+    <div class="footer-content">
+
+        <h2>Isaac Nkansah</h2>
+
+        <p>
+            Information Technology Student | Aspiring Web Developer
+        </p>
+
+        <div class="social-links">
+            <a href="https://github.com/YOUR-USERNAME"
+               target="_blank"
+               rel="noopener noreferrer">GitHub</a>
+
+            <a href="https://www.linkedin.com/in/YOUR-USERNAME"
+               target="_blank"
+               rel="noopener noreferrer">LinkedIn</a>
+
+            <a href="mailto:YOUR-EMAIL">Email</a>
+        </div>
+
+        <p class="copyright">
+            &copy; <span id="current-year"></span>
+            Isaac Nkansah. All rights reserved.
+        </p>
+
+    </div>
+</footer>
+
+
+  <button id="back-to-top"
+          class="back-to-top"
+          type="button"
+          aria-label="Back to top">
+    ↑
+  </button>
+
+</body>
+</html>
